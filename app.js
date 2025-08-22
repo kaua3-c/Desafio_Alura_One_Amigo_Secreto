@@ -30,8 +30,8 @@ function sortearAmigo() {
 
   arrayAmigos.length != 0
     ? (titulo.innerHTML = `o amigo sorteado é: ${arrayAmigos[amigoSorteado]}`)
-    : (titulo.innerHTML = `não há amigos cadastrados, por favor adicione um amigo!`);
-
+    : (titulo.innerHTML = `não há amigos cadastrados, por favor adicione um amigo!         `);
+ 
   arrayAmigos.splice(amigoSorteado, 1);
   listaAmigos.innerHTML = arrayAmigos.join("<br>");
 }
