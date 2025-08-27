@@ -18,5 +18,7 @@ Visualizar a lista de amigos cadastrados
 
 Sortear um amigo secreto de forma aleatória
 
+link para utilizar testar o projeto
+Vercel: https://desafioamigosecreto-three.vercel.app/
 
 
