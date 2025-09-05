@@ -18,7 +18,9 @@ Visualizar a lista de amigos cadastrados
 
 Sortear um amigo secreto de forma aleatória
 
+Remover amigo da lista
+
 link para utilizar testar o projeto
-Vercel: https://desafioamigosecreto-three.vercel.app/
+Vercel: https://desafio-alura-one-amigo-secreto.vercel.app/#
 
 
