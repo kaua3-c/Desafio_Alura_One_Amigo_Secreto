@@ -69,6 +69,13 @@ body {
     margin: 10px 0;
     text-align: center;
 }
+.message-list{
+     font-size: 22px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+
+}
 
 /* Contêineres de entrada e botão */
 .input-wrapper {
