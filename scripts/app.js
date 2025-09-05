@@ -24,7 +24,6 @@ function adicionarAmigo() {
 
   amigo.value = "";
   document.getElementById("sortearAmigo").disabled = false;
-  console.log(arrayAmigos);
 }
 
 function renderizarLista() {
@@ -58,7 +57,7 @@ function renderizarLista() {
 //  ao final verifica se ainda há nomes diponiveis, removendo o nome sorteado e atualizando a lista.
 function sortearAmigo() {
   let amigoSorteado = Math.floor(Math.random() * arrayAmigos.length);
-  console.log(arrayAmigos.length);
+  
   if (amigoSorteado === null || arrayAmigos.length === 0) {
     document.getElementById("sortearAmigo").disabled = true;
     listaAmigos.innerHTML = "Não há mais amigos para sortear, me desculpe :/";
